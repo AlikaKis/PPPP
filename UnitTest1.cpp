@@ -65,12 +65,12 @@ namespace UnitTest1
 
 		TEST_METHOD(Main_test_TEST11)
 		{
-			Assert::IsTrue(Program(0, 1, 0, 0, 3, 0) == "4 " + to_string(3.0), L"Assert");
+			Assert::IsTrue(Program(3, 5, 4, 5, 3, 4) == "2 " + to_string(1.0) + to_string(0.0), L"Assert");
 		}
 
 		TEST_METHOD(Main_test_TEST12)
 		{
-			Assert::IsTrue(Program(0, 1, 0, 1, 3, 3) == "4 " + to_string(3.0), L"Assert");
+			Assert::IsTrue(Program(5, 3, 5, 4, 3, 4) == "2 " + to_string(0.0) + to_string(1.0), L"Assert");
 		}
 
 		TEST_METHOD(Main_test_TEST13)
